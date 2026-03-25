@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Réa Entreprise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #1e2a38;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .hero img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #1e2a38;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* WhatsApp button */
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Réa Entreprise</h1>
+    <p>Solutions électriques professionnelles</p>
+</header>
+
+<nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil" class="hero">
+    <h2>Bienvenue chez Réa Entreprise</h2>
+    <p>Nous réalisons vos installations électriques avec qualité et professionnalisme.</p>
+
+    <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="Technicien">
+
+    <br>
+    <a href="#contact" class="btn">Nous contacter</a>
+</section>
+
+<section id="services" class="section">
+    <h2>Nos Services</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Installation</h3>
+            <p>Installation électrique complète de maisons et bâtiments.</p>
+        </div>
+
+        <div class="card">
+            <h3>Dépannage</h3>
+            <p>Intervention rapide pour résoudre vos pannes électriques.</p>
+        </div>
+
+        <div class="card">
+            <h3>Maintenance</h3>
+            <p>Entretien et vérification de vos installations.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Téléphone : +237 6XX XXX XXX</p>
+    <p>Email : contact@rea-entreprise.com</p>
+
+    <a href="https://wa.me/2376XXXXXXXX" class="btn" target="_blank">
+        Contacter sur WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Réa Entreprise - Tous droits réservés</p>
+</footer>
+
+<!-- WhatsApp floating button -->
+<a class="whatsapp" href="https://wa.me/237651637514" target="_blank">
+    WhatsApp
+</a>
+
+</body>
+</html>
